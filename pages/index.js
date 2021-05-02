@@ -1,5 +1,15 @@
-function HomePage() {
-  return <div>Tremenda movidita lo de $var ¿Que no?!</div>;
+const moviditas = require("../moviditas/moviditas.json");
+
+export async function getStaticProps() {
+  const movidita = moviditas.moviditas[Math.floor(Math.random() * moviditas.moviditas.length)];
+
+  return {
+    props: {
+      movidita: movidita,
+    },
+  };
 }
 
-export default HomePage;
+export default function HomePage({ movidita }) {
+  return <div>Tremenda movidita lo de {`${movidita.movidita}`} ¿Que no?!</div>;
+}
