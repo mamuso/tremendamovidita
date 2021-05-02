@@ -1,0 +1,18 @@
+{
+  "moviditas": [
+    { "movidita": "Basecamp", "slug": "basecamp" },
+    { "movidita": "Facebook", "slug": "facebook" },
+    { "movidita": "GitHub", "slug": "github" },
+    { "movidita": "Google", "slug": "google" },
+    { "movidita": "Microsoft", "slug": "microsoft" },
+    { "movidita": "Netflix", "slug": "netflix" },
+    { "movidita": "Twitter", "slug": "twitter" },
+    { "movidita": "Amazon", "slug": "amazon" },
+    { "movidita": "Apple", "slug": "apple" },
+    { "movidita": "Tesla", "slug": "tesla" },
+    { "movidita": "del COVID", "slug": "covid" },
+    { "movidita": "la Coca-Cola", "slug": "coca-cola" },
+    { "movidita": "las campanadas de nochevieja", "slug": "campanadas-nochevieja" },
+    { "movidita": "los sistemas de diseño", "slug": "sistemas-de-diseno" }
+  ]
+}
