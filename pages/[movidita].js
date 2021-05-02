@@ -1,3 +1,4 @@
+import Movidita from "../components/Movidita";
 const moviditas = require("../moviditas/moviditas.json");
 
 export async function getStaticPaths() {
@@ -19,5 +20,9 @@ export async function getStaticProps({ params }) {
 }
 
 export default function MovidaPage({ movidita }) {
-  return <div>Tremenda movidita lo de {`${movidita.movidita}`} ¿Que no?!</div>;
+  return (
+    <div>
+      <Movidita movidita={movidita.movidita} />
+    </div>
+  );
 }
